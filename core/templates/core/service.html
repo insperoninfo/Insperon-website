@@ -1,0 +1,431 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+
+    <link rel="stylesheet" href="{% static 'core/style.css' %}">
+    <script src="{% static 'core/script.js' %}"></script>
+
+
+    <title>Insperon-tech</title>
+</head>
+
+<body>
+
+    <!-- topnavbar -->
+    <div class="top-nav  ">
+        <div class="container">
+            <div class="row">
+                <div class=" col-6 social-icon">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+                <div class="col-6  social-icon">
+                    <div class="phone ">
+                        <i class="fa fa-phone "></i><span>:</span> <span>+977-9841372017/9843083444</span>
+                    </div>
+                    <div class="email">
+                        <i class="fa fa-envelope"></i><span>:</span> <span>insperon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end topnabr -->
+
+    <!-- nabvar -->
+    <nav class="navbar navbar-expand-lg navbar-mainbg sticky-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand navbar-logo" href="#">insperon-logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fas fa-bars text-white"></i>
+                </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'index' %}">Home</a>
+                    </li>
+
+                    <a class="nav-link" href="{% url 'about' %}">About us</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'services' %}">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfilio.html">Traning & classes</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfilio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+
+                </ul>
+              
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- //navbar -->
+
+    <div class="img4">
+        <div class="container">
+            <div class="text-about-us">
+                <h2>service</h2>
+                <div class="btn">
+                    <a href="Home.html">Home</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--************service************-->
+        <!-- card our vision start -->
+        <div class="container ">
+            <div class="row " style="-webkit-box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); 
+            box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0);">
+                <div class="col-lg-8 card-about">
+                    <h2>Our main services</h2>
+                    <hr style="border: 2px solid green;">
+                    
+
+                </div>
+                <div class="col-lg-4 card-about">
+                    <h2>Services we offers</h2>
+                    <ul ">
+                        <li>Web development</li>
+                        <li>software and system developmet</li>
+                        <li>App development</li>
+                        <li>Social media marketing</li>
+                        <li>Web hosting</li>
+                        <li>Website redesign and mantainence</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+           <!-- service in details -->
+            <div class="row " style="-webkit-box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); ">
+                <div class="col-lg-8 card-about ">
+                  
+                    <div class="row ">
+                        <div class="col-lg-6 ">
+                            <h3>Website dvelopment</h3>
+                            <p>Web development services are used to design, build, support, 
+                                and evolve all types of web-based software.  All kind of It solution and software development,
+                                 Insperon-Tech delivers intuitive and fast websites, web portals, and other web 
+                                 solutions that bring about digital transformation and open the potential for 
+                                 such business benefits as: </p>
+                        </div>
+                        <div class="col-lg-6 service-img ">
+                            <img src="{% static 'core/img/we.png' %}" alt="img1 ">
+                        </div>
+                        <p> <ul class="service1">
+                            <li>Growth of Customer/User Base</li>
+                            <li>New Digital and Business Channels</li>
+                            <li>Increase in Conversions</li>
+                          </ul>
+                           </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 card-about dev-service ">
+                 
+                  <div class="row ">
+                      <div class="col-3 service-icon ">    
+                         <i class="fa fa-line-chart "></i> 
+                      </div>
+                      <div class="col-9 service-process-heading "><h5>Requirement Anlaysis</h5></div>
+                  </div>
+                  <div class="row ">
+                    <div class="col-3 service-icon ">    
+                        <i class='fas fa-calendar-alt'></i>
+                    </div>
+                    <div class="col-9 service-process-heading "><h5>Planning & strategy</h5></div>
+                </div>
+                <div class="row ">
+                    <div class="col-3 service-icon ">    
+                        <i class='fas fa-edit'></i>
+                    </div>
+                    <div class="col-9 service-process-heading "><h5>Design & deployment</h5></div>
+                </div>
+                <div class="row ">
+                    <div class="col-3 service-icon ">    
+                        <i class="fa fa-search "></i>
+                    </div>
+                    <div class="col-9 service-process-heading "><h5>Testing & Debug</h5></div>
+                </div>
+                <div class="row ">
+                    <div class="col-3 service-icon ">    
+                        <i class="fa fa fa-refresh "></i>
+                    </div>
+                    <div class="col-9 service-process-heading "><h5>Mantainece $ feedback</h5></div>
+                </div>
+            </div>
+   
+        </div>
+        <hr>
+        <!-- 2ed row -->
+        <div class="row " style="-webkit-box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); ">
+            <div class="col-lg-8 card-about ">
+                
+                <div class="row ">
+                    <div class="col-lg-6 ">
+                        <h3>Traning &Classes</h3>
+                        <p>  Situated at the koteshwor, Kathmandu city, Insperon Infosys & technology maintains uniqueness in its brand and service as a professional computer institute in Nepal 
+                            since its establishment in 2076 . we basically  provides computer training in programming languages like Java, ASP.NET, C sharp, PHP, Oracle, SQL Server, Android 
+                            and C/C++.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 service-img ">
+                        <img src="{% static 'core/img/we.png' %}" alt="img1 ">
+                    </div>
+                    <p>  Situated at the koteshwor, Kathmandu city, Insperon Infosys & technology maintains uniqueness in its brand and service as a professional computer institute in Nepal 
+                        since its establishment in 2076 . we basically  provides computer training in programming languages like Java, ASP.NET, C sharp, PHP, Oracle, SQL Server, Android 
+                        and C/C++.
+                        </p>
+                </div>
+
+            </div>
+            <div class="col-lg-4 card-about dev-service ">
+             
+              <div class="row ">
+                  <div class="col-3 service-icon ">    
+                     <i class="fa fa-line-chart "></i> 
+                  </div>
+                  <div class="col-9 service-process-heading "><h5>Requirement Anlaysis</h5></div>
+              </div>
+              <div class="row ">
+                <div class="col-3 service-icon ">    
+                    <i class='fas fa-calendar-alt'></i>
+                </div>
+                <div class="col-9 service-process-heading "><h5>Planning & strategy</h5></div>
+            </div>
+            <div class="row ">
+                <div class="col-3 service-icon ">    
+                    <i class='fas fa-edit'></i>
+                </div>
+                <div class="col-9 service-process-heading "><h5>Design & deployment</h5></div>
+            </div>
+            <div class="row ">
+                <div class="col-3 service-icon ">    
+                    <i class="fa fa-search "></i>
+                </div>
+                <div class="col-9 service-process-heading "><h5>Testing & Debug</h5></div>
+            </div>
+            <div class="row ">
+                <div class="col-3 service-icon ">    
+                    <i class="fa fa fa-refresh "></i>
+                </div>
+                <div class="col-9 service-process-heading "><h5>Mantainece $ feedback</h5></div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <!-- 3rd row -->
+    <div class="row " style="-webkit-box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); ">
+        <div class="col-lg-8 card-about ">
+            
+            <div class="row ">
+                <div class="col-lg-6 ">
+                    <h2>Mobile App Development</h2>
+                    <p>Mobile app development services cover end-to-end development of mobile apps, 
+                        from business analysis and UI/UX design to mobile application
+                         testing and deployment or online market publication. </p>
+                </div>
+                <div class="col-lg-6 service-img ">
+                    <img src="{% static 'core/img/mobile.png' %}" alt="img1 ">
+                </div>
+                <p>We cover all stages of mobile application development and offer them both as stand-alone services and as parts of our full-cycle mobile app development.
+
+                </p>
+            </div>
+
+        </div>
+        <div class="col-lg-4 card-about dev-service ">
+         
+          <div class="row ">
+              <div class="col-3 service-icon ">    
+                 <i class="fa fa-line-chart "></i> 
+              </div>
+              <div class="col-9 service-process-heading "><h5>Requirement Anlaysis</h5></div>
+          </div>
+          <div class="row ">
+            <div class="col-3 service-icon ">    
+                <i class='fas fa-calendar-alt'></i>
+            </div>
+            <div class="col-9 service-process-heading "><h5>Planning & strategy</h5></div>
+        </div>
+        <div class="row ">
+            <div class="col-3 service-icon ">    
+                <i class='fas fa-edit'></i>
+            </div>
+            <div class="col-9 service-process-heading "><h5>Design & deployment</h5></div>
+        </div>
+        <div class="row ">
+            <div class="col-3 service-icon ">    
+                <i class="fa fa-search "></i>
+            </div>
+            <div class="col-9 service-process-heading "><h5>Testing & Debug</h5></div>
+        </div>
+        <div class="row ">
+            <div class="col-3 service-icon ">    
+                <i class="fa fa fa-refresh "></i>
+            </div>
+            <div class="col-9 service-process-heading "><h5>Mantainece $ feedback</h5></div>
+        </div>
+    </div>
+
+</div>
+<hr>
+<!-- 4th row -->
+<div class="row " style="-webkit-box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); ">
+    <div class="col-lg-8 card-about ">
+       
+        <div class="row ">
+            <div class="col-lg-6 ">
+                <h3>Social medaia Marketing</h3>
+                <p>Personalized SEO service tailored for your company. 
+                    Get your business website on the first page of Google with our proven SEO techniques.</p>
+            </div>
+            <div class="col-lg-6 service-img ">
+                <img src="{% static 'core/img/seo.png' %}" alt="img1 ">
+            </div>
+            <p>SEO is website experience improvement approach undertaken to increase search engine visibility. 
+                Think of SEO aka Search Engine Optimization as improving website condition to rank in top of the 
+                Google Search when user searches your services.
+            </p>
+        </div>
+
+    </div>
+    <div class="col-lg-4 card-about dev-service ">
+     <h5>Other service</h5>
+     
+     <p>According to the Requirement of client.</p>
+</div>
+
+</div>
+</div>
+
+
+
+        <!-- *********** service************ -->
+
+        <!-- footer -->
+        <!-- Site footer -->
+        <footer class="site-footer ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-sm-12 col-md-6 ">
+                        <h6>About</h6>
+                        <p class="text-justify ">Insperon-tech.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming programmers with the code. insperon-tech focuses on providing the most efficient code or snippets as the code wants to be simple. We will help
+                            programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3 ">
+                        <h6>Categories</h6>
+                        <ul class="footer-links ">
+                            <li><a href=" ">C</a></li>
+                            <li><a href=" ">UI Design</a></li>
+                            <li><a href=" ">PHP</a></li>
+                            <li><a href=" ">Java</a></li>
+                            <li><a href=" ">Android</a></li>
+                            <li><a href=" ">Templates</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3 ">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links ">
+                            <li><a href=" ">About Us</a></li>
+                            <li><a href=" ">Contact Us</a></li>
+                            <li><a href=" ">Contribute</a></li>
+                            <li><a href=" ">Privacy Policy</a></li>
+                            <li><a href=" ">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-8 col-sm-6 col-xs-12 ">
+                        <p class="copyright-text ">Copyright &copy; 2021 All Rights Reserved by
+                            <a href="# ">Insperon-Tech</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 ">
+                        <ul class="social-icons ">
+                            <li>
+                                <a href="# " class="fa fa-facebook facebook "></a>
+                            </li>
+                            <li>
+                                <a href="# " class="fa fa-linkedin linkedin "></a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- /footer -->
+
+        <!-- Aos js lib -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+        <script>
+            AOS.init({
+                offset: 200,
+                duration: 1000,
+
+            });
+        </script>
+
+        <!-- end aos lib -->
+        <!-- vanila tilt.js -->
+        <script type="text/javascript " src="vanilla-tilt.js "></script>
+        <script type="text/javascript ">
+            VanillaTilt.init(document.querySelectorAll(".card "), {
+                max: 25,
+                speed: 400
+            });
+
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".your-element "));
+        </script>
+
+
+        <!-- end vanila js -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js "></script>
+</body>
+
+</html>
