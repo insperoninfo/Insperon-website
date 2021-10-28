@@ -1,0 +1,418 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+
+    <link rel="stylesheet" href="{% static 'core/style.css' %}">
+    <script src="{% static 'core/script.js' %}"></script>
+
+
+    <title>Insperon-tech</title>
+</head>
+
+<body>
+
+    <!-- topnavbar -->
+    <div class="top-nav  ">
+        <div class="container">
+            <div class="row">
+                <div class=" col-6 social-icon">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+                <div class="col-6  social-icon">
+                    <div class="phone ">
+                        <i class="fa fa-phone "></i><span>:</span> <span>+977-9841372017/9843083444</span>
+                    </div>
+                    <div class="email">
+                        <i class="fa fa-envelope"></i><span>:</span> <span>insperon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end topnabr -->
+
+    <!-- nabvar -->
+    <nav class="navbar navbar-expand-lg navbar-mainbg sticky-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand navbar-logo" href="#">insperon-logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fas fa-bars text-white"></i>
+                </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'index' %}">Home</a>
+                    </li>
+
+                    <a class="nav-link" href="{% url 'about' %}">About us</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfilio.html">Traning & classes</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfilio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+
+                </ul>
+              
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- //navbar -->
+
+    <div class="bimg">
+        <!-- body of site -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 ">
+                    <div class=" container-fluid left-part " data-aos="slide-up">
+                        <div class="left-body">
+                            <h3 style="color: white;>Insperon is best for IT solution</h3>
+                            <h3 ">Our services <span class="change-content"></span></h3>
+                            <p>Insperon Infosys and technology Pvt. Ltd is one of the best inclusive training 
+                                institutes and Sftware development Company in kathmandu. </p>
+
+                        </div>
+                        <hr style="border: 1px solid white;">
+                        <p> Traning Institute & Software development company in Kathmandu.
+                        </p >
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 ">
+                    <div class="container right-body" data-aos="slide-down">
+                        <!-- card  slider -->
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-aos="fade-up">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="{% static 'core/img/rt.png' %}" alt="First slide">
+
+                                </div>
+                                <div class="carousel-item" data-aos="fade-up">
+                                    <img class="d-block w-100" src="{% static 'core/img/4.png' %}" alt="Second slide">
+
+                                </div>
+                                <div class="carousel-item" data-aos="fade-up">
+                                    <img class="d-block w-100" src="{% static 'core/img/we.png' %}" alt="Third slide">
+
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+
+                            </a>
+                        </div>
+
+                        <!-- end card sslider -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section1 -->
+
+    <section class="service pt-5">
+        <div class="container pt-5">
+            <div class="about-inspeeron">
+                <h2 class="" data-aos="slide-down">Why Insperon?</h2>
+                <p class="text-content" data-aos="flip-down">
+                     Providing quality IT training to the aspiring IT professionals.
+                     Availability of highly qualified and experience instructors.
+                     Assingning project works as per the nature of the courses.
+                    Taking  correctctive  actions to enhance traineess skill. </p>
+
+                <hr>
+                <div class="service-provide pt-5">
+                    <div class="row pt-5">
+                        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right">
+                            <div class="img2"></div>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
+                            <h4>Courses Available</h4>
+                          
+                            <div class="course-all">
+                                <ul>
+                                    <li data-aos="fade-out">Python/Django</li>
+                                    <li data-aos="fade-out">Web Development</li>
+                                    <li data-aos="fade-out">Java Programming </li>
+                                    <li data-aos="fade-out">php/laravel</li>
+                                    <li data-aos="fade-out">Android App Development</li>
+                                    <li data-aos="fade-out">Digital marking</li>
+                                    <li data-aos="fade-out">AutoCAD Traning</li>
+                                    <li data-aos="fade-out">CISCO certification</li>
+                                    
+
+
+
+                                </ul>
+                                <div class="btn">
+                                    <a href="#">Course Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right">
+                            <h4>what we do?</h4>
+                            <p>
+
+                            </p>
+                            <div class="course-all">
+                                <ul>
+                                    <li>UI$UX design</li>
+                                    <li>Web development</li>
+                                    <li>Application develpoment</li>
+                                    <li>social media boosting</li>
+                                    <li>System design and development</li>
+
+                                </ul>
+                                <div class="btn">
+                                    <a href="#">more-info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
+                            <div class="img3"></div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <!-- card services from here -->
+                <div class="card-service-header">
+                    <h2 style="font-weight: bold;" class="" data-aos="slide-down">Main service we provide</h2>
+
+                    <p data-aos="zoom-in"> Providing quality IT training to the aspiring IT professionals and Software development with experienced developer. </p>
+                </div>
+                <div class="card-service">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow" data-aos="fade-right">
+
+                                <img class="card-img-top" src="{% static 'core/img/4.png' %}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3>Web development</h3>
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <a href="#">more-info</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow" data-aos="flip-up">
+
+                                <img class="card-img-top" src="{% static 'core/img/rt.png' %}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3>Traning & classes</h3>
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <a href="#">More-info</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow" data-aos="fade-left">
+
+                                <img class="card-img-top" src="{% static 'core/img/we.png' %}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h3>App development</h3>
+                                    <p class="card-text"></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <a href="#">More-info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end card service from here -->
+            </div>
+    </section>
+    <section class="third-section">
+        <div class="container our-assement-body">
+            <div class="our-assemnet-text " data-aos="zoom-out">
+                <h2 style="font-weight: bold;" class="">Our Assessment</h2>
+                <p></p>
+
+            </div>
+            <div class="row" data-aos="zoom-in">
+
+                <div class="col col-lg-4 col-md-4 col-sm-12   our-s-text ">
+                    <div class="body-text-icon">
+                        <i class='fas fa-map-marked'></i>
+                        <br>
+                        <h3>costomize design</h3>
+                        <p></p>
+
+
+                    </div>
+
+
+                </div>
+                <div class="col col-lg-4 col-md-4 col-sm-12  our-s-text">
+                    <div class="body-text-icon">
+                        <i class='fas fa-balance-scale'></i>
+                        <br>
+                        <h3>Client support</h3>
+                        <p></p>
+
+
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-4 col-sm-12  our-s-text">
+                    <div class="body-text-icon">
+                        <i class="fa fa-clock-o"></i>
+                        <br>
+                        <h3>Full time support</h3>
+                        <p></p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Insperon Infosys & Technology <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming programmers with the code. insperon-tech focuses on providing the most efficient code or snippets as the code wants to be simple. We will help
+                        programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="">C</a></li>
+                        <li><a href="">UI Design</a></li>
+                        <li><a href="">PHP</a></li>
+                        <li><a href="">Java</a></li>
+                        <li><a href="">Android</a></li>
+                        <li><a href="">Templates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Contribute</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Insperon-Tech</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#" class="fa fa-facebook facebook"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa fa-linkedin  linkedin"></a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- /footer -->
+
+    <!-- Aos js lib -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+
+        });
+    </script>
+
+    <!-- end aos lib -->
+    <!-- vanila tilt.js -->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400
+        });
+
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+
+
+    <!-- end vanila js -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
