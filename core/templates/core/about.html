@@ -1,0 +1,325 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+
+    <link rel="stylesheet" href="{% static 'core/style.css' %}">
+    <script src="{% static 'core/script.js' %}"></script>
+
+
+    <title>Insperon-tech</title>
+</head>
+
+<body>
+
+    <!-- topnavbar -->
+    <div class="top-nav  ">
+        <div class="container">
+            <div class="row">
+                <div class=" col-6 social-icon">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+                <div class="col-6  social-icon">
+                    <div class="phone ">
+                        <i class="fa fa-phone "></i><span>:</span> <span>+977-9841372017/9843083444</span>
+                    </div>
+                    <div class="email">
+                        <i class="fa fa-envelope"></i><span>:</span> <span>insperon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end topnabr -->
+
+    <!-- nabvar -->
+    <nav class="navbar navbar-expand-lg navbar-mainbg sticky-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand navbar-logo" href="#">insperon-logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fas fa-bars text-white"></i>
+                </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'index' %}">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'about' %}">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfilio.html">Traning & classes</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfilio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+
+                </ul>
+              
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- //navbar -->
+
+    <div class="img4">
+        <div class="container">
+            <div class="text-about-us">
+                <h2>Abouts-us</h2>
+                <div class="btn">
+                    <a href="{% url 'index' %}">Home</a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- end out about -->
+
+        <!-- card our vision start -->
+        <div class="container ">
+            <div class="row " style="-webkit-box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); 
+            box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0);">
+                <div class="col-lg-8 card-about">
+                    <h2>Abouts-us</h2>
+                    <hr style="border: 2px solid green;">
+                    <p>Insperon Infosys & Technology PVT.LTD is one of the best inclusive computer training institutes &
+                         software development company in kathmandu, Nepal established in 2076 , our professional IT training
+                        and Development center has been employing exports in this field to impart  professional education to
+                         trainees. We offer well-structured complete professional training in various programming Language, 
+                         Graphics & Multimedia , web Designing as well as development Training that is based upon the current 
+                         recruitment  needs in the IT Market.</p>
+
+
+                </div>
+                <div class="col-lg-4 card-about">
+                    <h2>Why  Insperon</h2>
+                    <p>
+                        To get a  quality IT training with aspiring IT professionals 
+                        and  qualified  experienced instructors.
+                        Assigning project works as per the nature of the courses
+                        Conducting regular project work evaluation sessions
+                        Identifying trainees' skills and knowledge gaps
+                        Taking corrective actions to enhance trainees' skills
+                        Providing internship and job placement facilities to the trainees
+                        Building long-term trustful relationship with the trainees 
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <!-- out team -->
+            <div class="row " style="-webkit-box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0); 
+            box-shadow: 0px 10px 13px -7px #000000, -48px -50px 0px -30px rgba(0,0,0,0);">
+                <div class="col-lg-8 card-about">
+                    <h2> Managing  Team</h2>
+                    <p> </p>
+                </div>
+            </div>
+            <!-- our team and work -->
+
+          <!--   <div class="service-provide pt-5">
+                <div class="row pt-5">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-vision" data-aos="fade-right">
+                             <img  class="photo1" src="img/Nirmal.jpg" alt="Avatar">
+                           <h3>Managing Director</h3>
+                               Mr. Nirmal Karki
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-vision" data-aos="fade-left">
+
+                            <img  class="photo1" src="img/raj.jpg" alt="Avatar">
+                            <h3>CEO</h3>
+
+                            Mr. Rajendra Bahadur Thakurathi </div>
+
+                    </div>
+                    
+                <div class="col-lg-4 card-about ">
+                    <h2 style="color: #f7941d;">Developer Team</h2 >
+                    <p></p>
+                </div>
+
+                </div>
+                <div class="row pt-5">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-vision" data-aos="fade-right">
+                            <img  class="photo1" src="img/biplov.jpg" alt="Avatar">
+                            <h3>Sr. Developer/Project Manager</h3>
+                             <h > Mr. Biplov Sharma</h>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-vision" data-aos="fade-left">
+                            <img  class="photo1" src="img/ravisir.jpg" alt="Avatar">
+                            <h3>Frontend Engineer</h3>
+
+                          Mr. Ravi Kumar Thekare</div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-vision" data-aos="fade-left">
+                            <img  class="photo1" src="img/surain.jpg" alt="Avatar">
+                            <h3>Flutter Dev/Jr.Project manager</h3>
+
+                          Mr. Surain Thakurathi</div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-vision" data-aos="fade-left">
+                            <img  class="photo1" src="img/prabin2.jpg" alt="Avatar">
+                            <h3>Django Developer</h3>
+
+                          Mr. Prabin Ghimire</div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-vision" data-aos="fade-left">
+                            <img  class="photo1" src="img/anup.jpg" alt="Avatar">
+                            <h3>Django Developer</h3>
+
+                          Mr. Anup Joshi</div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-vision" data-aos="fade-left">
+                            <img  class="photo1" src="img/prabin.jpg" alt="Avatar">
+                            <h3>Counsellor/सल्लाहकार</h3>
+
+                          Mr. Prabin Shrestha </div>
+
+                    </div>
+
+                </div>
+            </div> -->
+        </div>
+
+        <!--************testinomial************-->
+
+        <!-- ***********end testinomila************ -->
+
+        <!-- footer -->
+        <!-- Site footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>About</h6>
+                        <p class="text-justify">Insperon-tech.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming programmers with the code. insperon-tech focuses on providing the most efficient code or snippets as the code wants to be simple. We will help
+                            programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Categories</h6>
+                        <ul class="footer-links">
+                            <li><a href="">C</a></li>
+                            <li><a href="">UI Design</a></li>
+                            <li><a href="">PHP</a></li>
+                            <li><a href="">Java</a></li>
+                            <li><a href="">Android</a></li>
+                            <li><a href="">Templates</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Contribute</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                            <a href="#">Insperon-Tech</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#" class="fa fa-facebook facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-linkedin  linkedin"></a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- /footer -->
+
+        <!-- Aos js lib -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 200,
+                duration: 1000,
+
+            });
+        </script>
+
+        <!-- end aos lib -->
+        <!-- vanila tilt.js -->
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+                max: 25,
+                speed: 400
+            });
+
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".your-element"));
+        </script>
+
+
+        <!-- end vanila js -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
